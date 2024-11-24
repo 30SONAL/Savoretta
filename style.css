@@ -1,0 +1,721 @@
+/* Basic styling for the website */
+  /* body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  nav {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .hero {
+    background: url('pexels-reneterp-1581384.jpg') no-repeat center/cover;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+  }
+  
+  .menu {
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(80, 60, 60);
+    /* background: url('') no-repeat center/cover; */
+  /* } */
+  
+  /* .menu-item {
+    display: inline-block;
+    margin: 20px;
+  }
+  
+  .menu-item img {
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+  }
+  
+  .reservation {
+    padding: 20px;
+     color: rgb(20, 16, 16);
+    text-align: center;
+    background-color: rgb(126, 99, 99);
+  }
+  
+  .reservation input[type="number"] {
+    width: 50px;
+    margin: 10px 0;
+  }
+
+
+
+
+  .reservation {
+    padding: 20px;
+    text-align: center;
+    color: rgb(26, 17, 17);
+    background: linear-gradient(135deg, #3b2b2b, #5a4033, #000);
+    background-size: cover;
+    background-blend-mode: overlay;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.reservation h2 {
+    color: #ffddc1; /* Light coffee color for text */
+
+
+/* .reservation p, 
+.reservation select, 
+.reservation button, 
+.reservation #reservationStatus {
+    color: rgb(21, 17, 17);
+    font-weight: bold;
+}
+
+#reservationStatus {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+
+
+  
+  .contact {
+    padding: 20px;
+    background-color: #333;
+   
+    color: white;
+    text-align: center;
+  }
+  
+  .contact form {
+    display: inline-block;
+    text-align: left;
+  }
+  
+  .contact form input,
+  .contact form textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contact form button {
+    padding: 10px 20px;
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+   */
+  /* Additional styling for new sections */ 
+
+/* .discounts, .events {
+  padding: 20px;
+  text-align: center;
+  background-color: #f7f7f7;
+}
+
+.discount-item, .event-item {
+  margin: 10px 0;
+  color: #ff6347;
+  font-weight: bold;
+}
+
+  .contact form button:hover {
+    background-color: #ff4500;
+  }  */
+  /* Basic styling for the website */
+
+
+
+
+
+  /* Basic styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+/* Navbar */
+nav {
+  background-color: #333;
+  color: white;
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  background: url('title.jpg') no-repeat center/cover;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+
+
+
+/* 
+.menu {
+  padding: 20px;
+  text-align: center;
+  background-color: rgb(80, 60, 60);
+  background: url('') no-repeat center/cover; 
+ }
+
+ .menu-item {
+  display: inline-block;
+  margin: 20px;
+}
+
+.menu-item img {
+  width: 150px;
+  height: 150px;
+  border-radius: 8px;
+} */
+/* Menu Section */
+/* .menu {
+  padding: 20px;
+  text-align: center;
+  background: linear-gradient(135deg, #3b2b2b, #5a4033, #000);
+} */
+.menu {
+  padding: 20px;
+  text-align: center;
+  /* background: linear-gradient(135deg, #3e2e2e, #4a3a2b, #2b2b2b, #1e1e1e); */
+  background: url('menu.jpeg') no-repeat center/cover;
+  color: #3f3030;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+.menu-item {
+  display: inline-block;
+  margin: 20px;
+  text-align: center;
+}
+
+.menu-item img {
+  width: 150px;
+  height: 150px;
+  border-radius: 8px;
+}
+
+/* Cart Section */
+#cart {
+  margin-top: 20px;
+  text-align: left;
+}
+/*about us*/
+#about-us {
+  background: linear-gradient(to bottom right, #e8d6c1, #4b3d3d, #6a5d4b); /* Gradient mixing cream, brown, and black */
+  padding: 50px 0; /* Top and bottom padding */
+  position: relative; /* For the pseudo-element effect */
+  overflow: hidden; /* Hides overflow of the pseudo-element */
+}
+
+#about-us:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 200%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.15); /* Subtle overlay for added depth */
+  transform: translateX(-50%) scale(1);
+  transition: transform 0.5s ease-in-out;
+  z-index: 0; /* Behind the content */
+}
+
+#about-us:hover:before {
+  transform: translateX(-50%) scale(1.05); /* Slightly scale up on hover */
+}
+
+#about-us .container {
+  max-width: 800px; /* Max width of the content */
+  margin: 0 auto; /* Center the content */
+  text-align: center; /* Center the text */
+  position: relative; /* To bring the content in front of the overlay */
+  z-index: 1; /* In front of the pseudo-element */
+}
+
+#about-us h2 {
+  font-size: 2.5em; /* Heading size */
+  margin-bottom: 20px; /* Space below the heading */
+  color: #2d2d2d; /* Dark color for the heading */
+  opacity: 0; /* Initial opacity for animation */
+  transform: translateY(-20px); /* Initial position for animation */
+  animation: fadeInUp 0.8s forwards; /* Animation for the heading */
+}
+
+#about-us p {
+  font-size: 1.2em; /* Paragraph size */
+  line-height: 1.6; /* Line height for readability */
+  margin-bottom: 20px; /* Space below each paragraph */
+  color: #3b2a2a; /* Dark color for paragraphs */
+  opacity: 0; /* Initial opacity for animation */
+  transform: translateY(20px); /* Initial position for animation */
+  animation: fadeInUp 0.8s forwards; /* Animation for the paragraphs */
+}
+
+#about-us p:nth-child(n+2) {
+  animation-delay: 0.2s; /* Delay for the second paragraph */
+}
+
+#about-us p:nth-child(n+3) {
+  animation-delay: 0.4s; /* Delay for the third paragraph */
+}
+
+@keyframes fadeInUp {
+  from {
+      opacity: 0; /* Start transparent */
+      transform: translateY(20px); /* Start from below */
+  }
+  to {
+      opacity: 1; /* End fully visible */
+      transform: translateY(0); /* End in place */
+  }
+}
+
+
+
+
+
+
+/* Reservation Section */
+.reservation {
+  padding: 20px;
+  text-align: center;
+  color: white;
+  background: linear-gradient(135deg, #3b2b2b, #5a4033, #000);
+}
+
+/* .contact {
+  padding: 20px;
+  background-color: #333;
+  background: url('contact\ us.webp') no-repeat center center/cover;
+  color: white;
+  text-align: center;
+}
+
+.contact form {
+  display: inline-block;
+  text-align: left;
+}
+ .contact form input,
+.contact form textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact form button {
+  padding: 10px 20px;
+  background-color: #ff6347;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}  */
+
+
+
+
+
+/* Contact Section Styles */
+/* Contact Section Styles */
+#contact {
+  background-image: url('contact\ us.webp'); /* Use the uploaded image path */
+  background-size: cover;
+  background-position: center;
+  padding: 80px 20px;
+  color: #0e0404;
+  text-align: center;
+  background-repeat: no-repeat;
+}
+
+#contact h2 {
+  font-size: 2.8em;
+  font-weight: bold;
+  margin-bottom: 0.4em;
+  color: #fcfaf6; /* Accent color for the header */
+}
+
+#contact p {
+  font-size: 1.2em;
+  max-width: 600px;
+  margin: 0 auto 30px;
+  line-height: 1.6;
+  color: #fffdfd;
+}
+
+/* Contact Info and Social Media Container */
+.contact-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+/* Contact Icon Styles */
+.contact-info div {
+  text-align: center;
+  width: 200px;
+}
+
+.contact-info i {
+  font-size: 2.2em;
+  color: #ffc107;
+  margin-bottom: 10px;
+  transition: transform 0.3s ease;
+}
+
+.contact-info i:hover {
+  transform: scale(1.2);
+  color: #fff; /* Changes to white on hover */
+}
+
+.contact-info p {
+  font-size: 1.1em;
+  color: #e0e0e0;
+}
+
+/* Social Media Icons */
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  font-size: 1.8em;
+  margin-top: 30px;
+}
+
+.social-links a {
+  color: #ffc107;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.social-links a:hover {
+  color: #fff;
+  transform: scale(1.2);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  #contact h2 {
+      font-size: 2.2em;
+  }
+  #contact p {
+      font-size: 1em;
+  }
+  .contact-info div {
+      width: 100%;
+  }
+  .social-links {
+      font-size: 1.5em;
+  }
+}
+.contact-section {
+  text-align: center;
+  padding: 40px 20px;
+  /* background-color: #f9f9f9; */
+  background: url('contact\ us.webp') no-repeat center center/cover
+}
+
+.contact-heading {
+  font-size: 2rem;
+  color: #ffcc00;
+  margin-bottom: 10px;
+}
+
+.contact-description {
+  color: #fff9f9;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.social-icon {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #eddfdf;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-icon:hover {
+  color: #ffcc00;
+  transform: scale(1.2);
+}
+
+
+
+
+
+
+
+/* Example CSS styles */
+#reservation {
+   background: linear-gradient(135deg, #3b2b2b, #5a4033, #000); /* Light background color */
+  padding: 50px 0; /* Top and bottom padding */
+  color: white;
+}
+
+#reservation .container {
+  max-width: 600px; /* Max width of the form */
+  margin: 0 auto; /* Center the form */
+  text-align: center; /* Center the text */
+}
+
+#reservation h2 {
+  font-size: 2.5em; /* Heading size */
+  margin-bottom: 30px; /* Space below the heading */
+}
+
+#reservation label {
+  display: block; /* Each label on a new line */
+  margin: 10px 0 5px; /* Margin for spacing */
+  font-weight: bold; /* Bold text */
+}
+
+#reservation input,
+#reservation select {
+  width: 100%; /* Full width */
+  padding: 10px; /* Padding inside the input */
+  margin-bottom: 20px; /* Space below each input */
+  border: 1px solid #ccc; /* Border style */
+  border-radius: 5px; /* Rounded corners */
+}
+  
+#reservation button {
+  background-color: #28a745; /* Green background */
+  color: white; /* White text */
+  padding: 10px 20px; /* Padding inside the button */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 1em; /* Button text size */
+}
+
+#reservation button:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+
+/* Basic styling for poll section */
+/* Styling for the poll section */
+#poll-section {
+  padding: 20px;
+  background: #f8f9fa;
+  border: 2px solid #ddd;
+  max-width: 500px;
+  margin: 20px auto;
+  border-radius: 8px;
+  text-align: center;
+}
+
+/* Styling for the vote count text */
+
+
+.dish {
+  margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dish-image {
+  width: 150px;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+
+.vote-count {
+  font-weight: bold;
+  color: #333;
+}
+/* Styling for the vote count text */
+.vote-count {
+  color: #ffffff;
+  font-size: 1em;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+
+/* Confetti Animation */
+@keyframes confetti-fall {
+  to {
+    transform: translateY(100vh);
+    opacity: 0;
+  }
+}
+
+.confetti {
+  position: fixed;
+  top: 0;
+  width: 10px;
+  height: 10px;
+  background-color: hsl(calc(360 * var(--hue)), 80%, 60%);
+  opacity: 0.8;
+  animation: confetti-fall linear;
+  animation-duration: 5s;
+  border-radius: 50%;
+  will-change: transform;
+}
+/* Styling for the Vote button */
+button {
+  background: linear-gradient(45deg, #3e2723, #6d4c41);
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.3s ease, background 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Hover effect for the Vote button */
+button:hover {
+  transform: scale(1.1);
+  background: linear-gradient(45deg, #6d4c41, #3e2723);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+/* Active (pressed) effect */
+button:active {
+  transform: scale(0.98);
+  background: linear-gradient(45deg, #5d4037, #3e2723);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+/* Animation for poll section on vote */
+.animate-bg {
+  animation: vote-bg 1s ease-in-out;
+}
+
+@keyframes vote-bg {
+  0% { background-color: #4e3d31; }
+  50% { background-color: #6d4c41; }
+  100% { background-color: #4e3d31; }
+}
+
+/* Styling for the poll section with animated gradient background */
+#poll-section {
+  background: linear-gradient(135deg, #2e2e2e, #4e3d31, #f5f5f5);
+  background-size: 400% 400%;
+  animation: gradient-animation 10s ease infinite;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  max-width: 600px;
+  margin: 20px auto;
+  color: #f8f8f8;
+  text-align: center;
+
+}
+
+
+
+/* Keyframes for the animated gradient */
+@keyframes gradient-animation {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Title styling */
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.dish {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(156, 98, 98, 0.8);
+  border-radius: 8px;
+  padding: 15px;
+  transition: transform 0.3s ease;
+}
+
+.dish:hover {
+  transform: scale(1.05);
+}
+
+.dish-image {
+  width: 150px;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+
+.vote-count {
+   color: #333; /* Keep the vote count color white */
+  font-weight: bold;
+  color: #333;
+  margin-top: 5px;
+}
+
